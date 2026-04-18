@@ -1,0 +1,3 @@
+ultralytics>=8.0.0      # YOLOv8 model + inference engine
+opencv-python>=4.8.0    # webcam capture, drawing, display
+numpy>=1.24.0           # array math (comes with ultralytics, listed for clarity)

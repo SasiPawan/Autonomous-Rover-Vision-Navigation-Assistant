@@ -1,0 +1,14 @@
+yolov8n.pt
+screenshots/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.venv/
+dist/
+build/
+.vscode/
+.DS_Store
+Thumbs.db
