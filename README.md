@@ -47,8 +47,6 @@ A zone is marked **BLOCKED** when obstacle coverage exceeds 8% of that zone's ar
 |-----|-------------------------------|
 | Q   | Quit                          |
 | S   | Save screenshot               |
-| +   | Raise confidence threshold    |
-| -   | Lower confidence threshold    |
 
 ---
 
@@ -74,25 +72,3 @@ rover_vision/
 └── screenshots/       ← auto-created when you press S
 ```
 
----
-
-## 🔗 Relation to Project 1
-
-| Feature                        | Project 1 | Project 2 (this) |
-|-------------------------------|-----------|------------------|
-| Webcam capture                | ✅        | ✅ (reused)       |
-| YOLO detection + boxes        | ✅        | ✅ (reused)       |
-| FPS counter                   | ✅        | ✅ (reused)       |
-| Confidence threshold controls | ✅        | ✅ (reused)       |
-| Screenshot (S key)            | ✅        | ✅ (reused)       |
-| Zone division (L/C/R)         | —         | ✅                |
-| Navigation logic engine       | —         | ✅                |
-| Human safety override         | —         | ✅                |
-| Nearest obstacle label        | —         | ✅                |
-| Obstacle priority by size     | —         | ✅                |
-| Sound alert                   | —         | ✅                |
-
----
-
-Built with ❤️ for college rover team demonstration.  
-Uses [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) and [OpenCV](https://opencv.org/).
