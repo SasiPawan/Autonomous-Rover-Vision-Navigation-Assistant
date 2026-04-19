@@ -37,7 +37,7 @@ A zone is marked **BLOCKED** when obstacle coverage exceeds 8% of that zone's ar
 | CENTER blocked, RIGHT clear        | TURN RIGHT                |
 | All zones blocked                  | STOP                      |
 | LEFT + RIGHT blocked, CENTER clear | FORWARD WITH CAUTION      |
-| Person detected in CENTER          | HUMAN DETECTED — STOP ⚠   |
+| Person detected in CENTER          | HUMAN DETECTED — STOP   |
 
 ---
 
