@@ -1,10 +1,10 @@
-# 🤖 Autonomous Rover Vision Navigation Assistant
+# Autonomous Rover Vision Navigation Assistant
 
 Real-time obstacle detection and navigation decision-making using a laptop webcam, YOLOv8, and OpenCV.
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ```bash
 pip install -r requirements.txt
@@ -13,7 +13,7 @@ python rover_nav.py
 
 ---
 
-## 🗺 How It Works
+## How It Works
 
 The camera frame is divided into **three vertical zones**:
 
@@ -41,7 +41,7 @@ A zone is marked **BLOCKED** when obstacle coverage exceeds 8% of that zone's ar
 
 ---
 
-## 🎮 Controls
+## Controls
 
 | Key | Action                        |
 |-----|-------------------------------|
@@ -50,7 +50,7 @@ A zone is marked **BLOCKED** when obstacle coverage exceeds 8% of that zone's ar
 
 ---
 
-## 🛠 Configuration (top of rover_nav.py)
+## Configuration (top of rover_nav.py)
 
 | Variable              | Default      | Effect                                    |
 |-----------------------|-------------|-------------------------------------------|
@@ -62,7 +62,7 @@ A zone is marked **BLOCKED** when obstacle coverage exceeds 8% of that zone's ar
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 rover_vision/
